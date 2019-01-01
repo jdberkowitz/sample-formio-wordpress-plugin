@@ -16,4 +16,4 @@ In order to use
 
 5. Insert the shortcode on pages you want to display the submissions
 
-A full video tutorial on creating the script can be found on youtube at 
+A full video tutorial on creating the script can be found on youtube at https://youtu.be/876hswrvqkY
