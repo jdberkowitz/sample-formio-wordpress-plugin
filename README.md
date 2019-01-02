@@ -1,4 +1,6 @@
 # sample-formio-wordpress-plugin
+A youtube video tutorial shows the step by step setup of the wordpress formio plugin. https://www.youtube.com/watch?v=Cv3j0vTd9Vs&feature=youtu.be
+
 Simple Wordpress v5 plugin to display submissions from a formio standalone form via the RESTFul API
 
 This simple wordpress plugin adds a shortcode that allows frontend users to view form submissions. 
@@ -15,4 +17,5 @@ In order to use
 4. Activate the plugin in the wordpress admin
 
 5. Insert the shortcode you create in the plugin on pages you want to display the submissions
+
 
