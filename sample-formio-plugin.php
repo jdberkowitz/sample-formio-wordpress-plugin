@@ -13,9 +13,10 @@ include 'Formio.php';
 function display_formio_sample_inquiry_entries(){
 
     /*
-    *Create a new instance from the project URL and the resource
+    * Replace {{form.io API Endpoint}} with your projects endpoint URL
+    * Create a new instance from the project URL and the resource
     */
-    $formio = new Formio('https://hqmmszjedyurvoc.form.io', array(
+    $formio = new Formio('{{form.io API Endpoint}}', array(
         'resource' => 'admin', // Formio resource against which to authenticate
         'login' => 'admin/login' // Formio login endpoint
     ));
