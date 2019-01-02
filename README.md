@@ -1,4 +1,6 @@
-# sample-formio-wordpress-plugin
+# Sample Wordpress Form.io Plugin
+# Display form entries on the frontend of your wordpress site with the form.io API 
+
 A youtube video tutorial shows the step by step setup of the wordpress formio plugin. https://www.youtube.com/watch?v=Cv3j0vTd9Vs&feature=youtu.be
 
 Simple Wordpress v5 plugin to display submissions from a formio standalone form via the RESTFul API
