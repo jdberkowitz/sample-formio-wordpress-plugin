@@ -25,14 +25,15 @@ function display_formio_sample_inquiry_entries(){
     * Replace {{username}} and {{password}}
     */
 
-    $tables = $formio->login('info@joshuaberkowitz.us', 'Joshua42');
+    $tables = $formio->login('{{username}}', '{{password}}');
     
     /* 
+    * Replace the {{sampleform/submission}} with your forms submission endpoint
     * jwt token is now stored in the class and can be used for get() and post() calls
     * the get() method takes only the endpoint (or filtered endpoint) and returns a reponse object containing form details and array of submission objects
     */
 
-    $productInquiryTables = $formio->get('sampleinquiryform/submission');
+    $productInquiryTables = $formio->get('{{sampleform/submission}}');
 
     //The response body contains a "body" property which holds all the response information
     $formEntries = $productInquiryTables["body"];
